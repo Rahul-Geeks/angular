@@ -298,7 +298,7 @@ Now, on every HTTP request made as part of rendering the application on the serv
   This command is similar to [`ng serve`](cli/serve), which offers live reload during development, but uses server-side rendering. The application will run in watch mode and refresh the browser after every change.
   This command is slower than the actual `ng serve` command.
 
-- `ng build && ng run app-name:server`
+- `npm run build:ssr`
 
   This command builds both the server script and the application in production mode.
   Use this command when you want to build the project for deployment.
